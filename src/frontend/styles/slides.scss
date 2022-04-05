@@ -16,5 +16,10 @@
     .slides{
         @include displayflex;
     }
+
+    .content{
+        @include displayflex;
+        padding: 1rem;
+    }
 }
 

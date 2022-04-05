@@ -1,3 +1,4 @@
+import "./App.scss";
 import Carousel from "./frontend/components/Carousel";
 
 function App() {

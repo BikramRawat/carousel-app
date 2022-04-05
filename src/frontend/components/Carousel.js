@@ -5,7 +5,7 @@ import "../styles/Carousel.scss";
 const Carousel =()=> {
 const [currentItem, setCurrentItem]=useState(0);
 const itemArray =[<div>An experience that makes us feel like we’re covered in maple syrup - <p>It’s a good thing</p></div>,
- "This piece of software is the shit, I’ve never tried anything like it.",
+ <div>This piece of software is the shit <p>I’ve never tried anything like it.</p></div>,
   "this is third slide",
    "this is fourth slide" ,
     "this is fifth slide"];
