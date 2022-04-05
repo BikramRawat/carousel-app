@@ -19,7 +19,12 @@
 
     .content{
         @include displayflex;
-        padding: 1rem;
+        padding: 1rem 1rem;
     }
 }
 
+@media screen and (max-width: 600px) {
+    .slides-container .slides {
+        font-size:0.5rem !important;
+    }
+  }
